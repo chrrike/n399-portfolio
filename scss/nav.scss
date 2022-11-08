@@ -1,0 +1,22 @@
+nav {
+  width: 80%;
+  height: 50px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+    height: 50px;
+    width: 30%;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+}
