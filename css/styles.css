@@ -42,4 +42,17 @@ nav a {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.hero {
+  width: 80%;
+  height: 400px;
+  background-color: blue;
+  margin: 0 auto;
+}
+.hero h1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 50px;
+  padding-top: 15%;
+}
+
 /*# sourceMappingURL=styles.css.map */
