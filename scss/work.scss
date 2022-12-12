@@ -1,0 +1,52 @@
+h3 {
+  text-align: center;
+  margin-left: -900px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.works {
+  //background-color: yellow;
+  width: 80%;
+  min-height: 80%;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  .work {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 150px;
+    //background-color: oldlace;
+    border-radius: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    .work-logo {
+      width: 30%;
+      //background-color: palevioletred;
+    }
+    .work-text {
+      //background-color: paleturquoise;
+      width: 40%;
+      .work-title {
+        font-size: 20px;
+        text-decoration: 1.5px underline;
+        text-underline-offset: 5px;
+        margin-bottom: 3px;
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+      .work-description {
+        font-size: 15px;
+        p {
+          margin-left: 12px;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}

@@ -7,6 +7,7 @@
 html,
 body {
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1,
@@ -22,7 +23,7 @@ p {
 nav {
   width: 80%;
   height: 50px;
-  background-color: pink;
+  background-color: rgb(241, 236, 236);
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -32,7 +33,6 @@ nav .links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: orange;
   height: 50px;
   width: 30%;
 }
@@ -45,7 +45,7 @@ nav a {
 .hero {
   width: 80%;
   height: 400px;
-  background-color: blue;
+  background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg);
   margin: 0 auto;
 }
 .hero h1 {
@@ -53,6 +53,144 @@ nav a {
   text-align: center;
   font-size: 50px;
   padding-top: 15%;
+  color: white;
+}
+
+.home-content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: pink;
+}
+.home-content p {
+  margin: 0;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  text-align: center;
+  margin-left: -900px;
+  margin-top: 50px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.works {
+  width: 80%;
+  min-height: 80%;
+  display: flex;
+  align-items: left;
+  justify-content: space-evenly;
+  margin: 0 auto;
+}
+.works .work {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 150px;
+  border-radius: 2%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.works .work .work-logo {
+  width: 30%;
+}
+.works .work .work-text {
+  width: 40%;
+}
+.works .work .work-text .work-title {
+  font-size: 20px;
+  text-decoration: 1.5px underline;
+  text-underline-offset: 5px;
+  margin-bottom: 3px;
+}
+.works .work .work-text .work-title a {
+  text-decoration: none;
+  color: black;
+}
+.works .work .work-text .work-description {
+  font-size: 15px;
+}
+.works .work .work-text .work-description p {
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+.desc {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+}
+.desc .pfp {
+  width: 30%;
+  height: 100%;
+}
+.desc .pfp img {
+  min-width: 100%;
+  min-height: 100%;
+  border-radius: 50%;
+}
+.desc .text p {
+  margin-left: 20px;
+}
+.desc .text img {
+  width: 30px;
+  height: 30px;
+}
+
+h1,
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+p {
+  text-align: left;
+  margin-left: 18%;
+  font-size: 13px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+contactForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 20px;
+}
+contactForm form {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  width: 50%;
+}
+contactForm form input {
+  height: 50px;
+  margin-bottom: 25px;
+  width: 80%;
+  text-align: left;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid black;
+}
+contactForm form input[type=text] {
+  padding-left: 10px;
+}
+contactForm form input[type=textarea] {
+  height: 100px;
+  padding-left: 10px;
+}
+contactForm form input[type=button] {
+  background-color: rgb(165, 165, 165);
+  color: black;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 1%;
+  border: none;
 }
 
 /*# sourceMappingURL=styles.css.map */

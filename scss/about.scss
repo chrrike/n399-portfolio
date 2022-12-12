@@ -1,0 +1,26 @@
+.desc {
+  //background-color: pink;
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  .pfp {
+    width: 30%;
+    height: 100%;
+    img {
+      min-width: 100%;
+      min-height: 100%;
+      border-radius: 50%;
+      //background-color: green;
+    }
+  }
+
+  .text {
+    p {
+      margin-left: 20px;
+    }
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

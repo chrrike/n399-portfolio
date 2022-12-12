@@ -1,12 +1,25 @@
 .hero {
   width: 80%;
   height: 400px;
-  background-color: blue;
+  //background-color: blue;
+  background-image: url(https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg);
   margin: 0 auto;
   h1 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     font-size: 50px;
     padding-top: 15%;
+    color: white;
+  }
+}
+
+.home-content {
+  width: 80%;
+  margin: 0 auto;
+  background-color: pink;
+  p {
+    margin: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
   }
 }
